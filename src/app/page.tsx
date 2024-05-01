@@ -37,21 +37,21 @@ interface MaterialData {
 }
 
 const materialData: MaterialData = {
-    Plastic: {
-        merits: "Plastic is versatile and lightweight.",
-        demerits: "Plastic is non-biodegradable and contributes to pollution.",
+    OldLaptop: {
+        merits: "Old laptops can be refurbished or recycled to extend their lifespan.",
+        demerits: "Disposing of old laptops improperly can lead to environmental pollution.",
     },
-    Glass: {
-        merits: "Glass is recyclable and does not degrade over time.",
-        demerits: "Glass production requires a lot of energy.",
+    OldPhone: {
+        merits: "Old phones can be refurbished or recycled to extend their lifespan.",
+        demerits: "Disposing of old phones improperly can lead to environmental pollution.",
     },
-    Paper: {
-        merits: "Paper is biodegradable and recyclable.",
-        demerits: "Paper production can lead to deforestation.",
+    OldBattery: {
+        merits: "Old batteries can be recycled to recover valuable materials.",
+        demerits: "Improper disposal of old batteries can contaminate the environment.",
     },
-    Metal: {
-        merits: "Metal is durable and can be recycled repeatedly.",
-        demerits: "Metal extraction and processing can be energy-intensive.",
+    ScrapElectronics: {
+        merits: "Scrap electronics can be recycled to recover valuable materials.",
+        demerits: "Improper disposal of scrap electronics can lead to environmental pollution.",
     },
 };
 
