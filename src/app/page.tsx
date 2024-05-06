@@ -168,19 +168,19 @@ const Page = () => {
                                 <div className="grid grid-cols-2 gap-4">
                                     <div onClick={() => handleMaterialClick("Plastic")} className="flex justify-center items-center flex-col gap-2  shadow-lg rounded-xl p-3 border-2 border-black/10 shadow-black/10">
                                         <Image src={bottle} alt="bottle" height={200} className=" h-24 w-24" width={200} />
-                                        <h1>Plastic</h1>
+                                        <h1>Old Laptop</h1>
                                     </div>
                                     <div onClick={() => handleMaterialClick("Glass")} className="flex justify-center items-center flex-col  gap-2 shadow-lg rounded-xl p-3 border-2 border-black/10 shadow-black/10">
                                         <Image src={glass} alt="bottle" height={200} className=" h-24 w-24" width={200} />
-                                        <h1>Glass</h1>
+                                        <h1>Old Phone</h1>
                                     </div>
                                     <div onClick={() => handleMaterialClick("Paper")} className="flex justify-center items-center flex-col gap-2  shadow-lg rounded-xl p-3 border-2 border-black/10 shadow-black/10">
                                         <Image src={paper} alt="bottle" height={200} className=" h-24 w-24" width={200} />
-                                        <h1>Paper</h1>
+                                        <h1>Old Battery</h1>
                                     </div>
                                     <div onClick={() => handleMaterialClick("Metal")} className="flex justify-center items-center flex-col gap-2  shadow-lg rounded-xl p-3 border-2 border-black/10 shadow-black/10">
                                         <Image src={metal} alt="bottle" height={200} className=" h-24 w-24" width={200} />
-                                        <h1>Metal</h1>
+                                        <h1>Scrap Electronics</h1>
                                     </div>
                                 </div>
                             </div>
